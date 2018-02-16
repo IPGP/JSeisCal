@@ -1,10 +1,5 @@
 # JSeisCal
-
-
-# Jar compilation #
-javac  *.java
-jar cvf jSeisCal.jar *
-
+Eclipse project
 
 
 

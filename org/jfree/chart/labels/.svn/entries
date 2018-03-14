@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://svn.ipgp.fr/instru_geos"
+   name=""
+   revision="238"
+   last-author="leroy"
+   url="https://svn.ipgp.fr/instru_geos/jSeisCal/org/jfree/chart/labels"
+   uuid="308c3184-852a-42d4-b679-f66096868c1e"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="AbstractCategoryItemLabelGenerator.java"
+   checksum="fe747fbea754b6100e3ce35ddd84fd88"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="AbstractPieItemLabelGenerator.java"
+   checksum="67ab5a08768564c34b52f9121a77d013"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="AbstractXYItemLabelGenerator.java"
+   checksum="353b43983bffb0f7c550be7e8799e8cd"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="BoxAndWhiskerToolTipGenerator.java"
+   checksum="9fcec75cb03985aab124844e0ab6bc16"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="BoxAndWhiskerXYToolTipGenerator.java"
+   checksum="b3b19a0ae902dacf8123a4fca1a40427"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="BubbleXYItemLabelGenerator.java"
+   checksum="2f9090efbba3e18f3dd9ffdc925ea327"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="CategoryItemLabelGenerator.java"
+   checksum="72938420b82495dc7bbbdb6e3738e1fe"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="CategorySeriesLabelGenerator.java"
+   checksum="62da67ef3ff27dd0245e72e13b2d2794"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="CategoryToolTipGenerator.java"
+   checksum="ee813b42b1ff301dfa4f365b9ee2ec03"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ContourToolTipGenerator.java"
+   checksum="01a8315e4bad15c12732867c23a48c82"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="CrosshairLabelGenerator.java"
+   checksum="2c0543721a5a65729b76b397a8df19e8"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="CustomXYToolTipGenerator.java"
+   checksum="12076fa56a410df244eb288a4e16a08d"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="HighLowItemLabelGenerator.java"
+   checksum="238486b3f2d71e477e7f258f4831c76b"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="IntervalCategoryItemLabelGenerator.java"
+   checksum="a84c19a635b81dccdb502e29903a4dd1"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="IntervalCategoryToolTipGenerator.java"
+   checksum="3ab47d095a5144e196ccfbf76ab16ac4"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="IntervalXYItemLabelGenerator.java"
+   checksum="4239346c0ea73be15d703f7f3c035d29"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ItemLabelAnchor.java"
+   checksum="b06aba90fe03a6dc29b4854f39225345"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ItemLabelPosition.java"
+   checksum="fe291b77ee05a22835515b605f97d8e6"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="MultipleXYSeriesLabelGenerator.java"
+   checksum="4f19f59f1c7f3792b7a6682ea01a579d"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="PieSectionLabelGenerator.java"
+   checksum="3d58bb818d3b321fbf13de75c3ee2060"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="PieToolTipGenerator.java"
+   checksum="69187d1e84a4a8e14e95243240eb95e5"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="StandardCategoryItemLabelGenerator.java"
+   checksum="fa38dab60dc9c8ada60172d2ef62529d"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="StandardCategorySeriesLabelGenerator.java"
+   checksum="601be57034909bc6947169f5514b933e"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="StandardCategoryToolTipGenerator.java"
+   checksum="d8234223974ab044e5aeae442621da16"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="StandardContourToolTipGenerator.java"
+   checksum="bf9adcf3c6e81946ecaed639950d2b06"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="StandardCrosshairLabelGenerator.java"
+   checksum="b0a01afb41a8460335e10948f5f5b5d0"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="StandardPieSectionLabelGenerator.java"
+   checksum="b5a445a5b1e3f4b0c5d2aecd300e3ba9"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="StandardPieToolTipGenerator.java"
+   checksum="bd4e48fd7e852be98f545dcb13e2a591"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="StandardXYItemLabelGenerator.java"
+   checksum="7f10cca09fd812444dc6f79e29c5d0ae"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="StandardXYSeriesLabelGenerator.java"
+   checksum="0a7f233d4b93dd852c2627f9fa61ef01"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="StandardXYToolTipGenerator.java"
+   checksum="6fc1869a123ba9d963f7f98d68059f7a"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="StandardXYZToolTipGenerator.java"
+   checksum="91709ef03b3d4156a3a8356c7915e949"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="SymbolicXYItemLabelGenerator.java"
+   checksum="54b2704fb69846caf897b6749c0d58e2"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="XYItemLabelGenerator.java"
+   checksum="8b291a3cff181021083bdf2771d6fedc"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="XYSeriesLabelGenerator.java"
+   checksum="feec37f30356d71921a0894d68448e7b"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="XYToolTipGenerator.java"
+   checksum="4d9e5373e266982ae07d16cb3ac653eb"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="XYZToolTipGenerator.java"
+   checksum="b293277752f6fe76c3989b213af4d364"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="package.html"
+   checksum="214cb73a0462f1e8b436bb602a1ae727"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+</wc-entries>

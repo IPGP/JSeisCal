@@ -15,7 +15,7 @@ public class jSeisCalView extends JFrame {
 	 */
 	private static final long serialVersionUID = 1L;
 	
-	public static final String version = "0.3";
+	public static final String version = "0.4";
 	
 	private static final String SERIAL = "Serial : ";
 	//... Components
@@ -32,12 +32,8 @@ public class jSeisCalView extends JFrame {
     private JLabel     m_q330AuthCodeLb 	 = new JLabel("Code : ");
     public  JTextField m_q330AuthCodeTf 	 = new JTextField(15);
     
-    private JTextField m_dialogTf       	 = new JTextField(15);
     private JButton    m_registerBtn    	 = new JButton("Register");
     private JButton    m_deregisterBtn       = new JButton("DeReg");
-    
-    private JLabel     m_tableAddressLb      = new JLabel("Address : ");
-    public  JTextField m_tableAddressTf      = new JTextField(15);
     
     private JLabel     m_tableDisplacementLb = new JLabel("Disp : ");
     public  JTextField m_tableDisplacementTf = new JTextField(15);
@@ -56,8 +52,6 @@ public class jSeisCalView extends JFrame {
     private JLabel     m_tableChannelLb   	 = new JLabel("Channel : ");
     String[] chList = { "HHZ", "HHN", "HHE", "BHZ", "BHN", "BHE"};
     public  JComboBox  m_tableChannelLst     = new JComboBox(chList);
-    
-    private JLabel     m_tableTrigHH	   	 = new JLabel("(Trig always on HH)");
     
     private JButton    m_tableConnnectBtn    = new JButton("Connect");
     public JButton     m_tableModeBtn    	 = new JButton("Mode : V");
@@ -90,26 +84,15 @@ public class jSeisCalView extends JFrame {
     private JButton    m_metrozetDiagInputPwrPlusAdc    = new JButton("INPUTPWR+ADC");
     private JButton    m_metrozetDiagInputPwrMinusAdc    = new JButton("INPUTPWR-ADC");
     
-    
-    String[] eCalibSourceList = { "Metrozet Internal", "Q330" };
-    public  JComboBox  m_eCalibSourceLst         = new JComboBox(eCalibSourceList);
     private JButton    m_metrozetReturnCalibBtn  = new JButton("RETURN");
     private JButton    m_metrozetCalibrate       = new JButton("CALIBRATE");
     private JButton    m_metrozetIntCalVelocity  = new JButton("INTCALVELOCITY");
     private JButton    m_metrozetIntCalDisconnect= new JButton("INTCALDISCONNECT");
     private JButton    m_metrozetNZSig           = new JButton("NZSIGNALOUT");
     private JButton    m_metrozetEZSig           = new JButton("EZSIGNALOUT");
-    String[] sigList = { "SWEEP", "STEP", "0.01HZSINE", "0.10HZSINE", "1.00HZSINE" };
-    public  JComboBox  m_metrozetSigLst          = new JComboBox(sigList);
-    String[] sisType = { "STS1", "STS2"};
-    public  JComboBox  m_sisLst                  = new JComboBox(sisType);
-    private JLabel     m_sisTypeLb  	 		 = new JLabel("Seismometer : ");
-    String[] chType = { "HH", "BH"};
-    public  JComboBox  m_chLst                   = new JComboBox(chType);
-    private JLabel     m_chTypeLb  	 			 = new JLabel("Channel Type : ");
-    private JToggleButton    m_calibStartBtn     = new JToggleButton("Start");
-    
-    
+    private JButton    m_metrozetSWEEP           = new JButton("SWEEP");
+    private JButton    m_metrozetSTEP           = new JButton("STEP");
+          
     private JPanel     leftPanel        	 = new JPanel();
     private JPanel     q330Panel        	 = new JPanel();
     private JPanel     tablePanel       	 = new JPanel();
@@ -120,17 +103,10 @@ public class jSeisCalView extends JFrame {
     public  JTextField metrozetCommandTf  	 = new JTextField(15);
     public  Console console  				 = null;
     
-    public JTabbedPane tabbedPane 			 = new JTabbedPane();
+    public  JTabbedPane tabbedPane 			 = new JTabbedPane();
     private JTabbedPane tabbedPaneConfig	 = new JTabbedPane();
 
     private JMenuBar bar 					 = new JMenuBar();
-    private JMenu menuViews 				 = new JMenu("Views");
-    private JMenuItem menuItemSTS1 			 = new JMenuItem("STS1");
-    private JMenuItem menuItemSTS2 			 = new JMenuItem("STS2");
-    private JMenu menuWizards 			 	 = new JMenu("Wizards");
-    private JMenuItem menuItemSetup 		 = new JMenuItem("Setup Q330");
-    private JMenuItem menuItemAbsoluteCalib  = new JMenuItem("Absolute Calibration");
-    private JMenuItem menuItemElectricalCalib = new JMenuItem("Electrical Calibration");
     private JMenu menuOptions 				 = new JMenu("Options");
 	private JMenuItem menuItemAbout			 = new JMenuItem("About");
     private JMenuItem menuItemSave 			 = new JMenuItem("Save");
@@ -161,10 +137,6 @@ public class jSeisCalView extends JFrame {
         //... Set up the logic
         m_model = model;
         
-        // dummy
-        //m_dialogTf.setEditable(false);
-        
-
         /*
          * Build control panels
          */
@@ -205,11 +177,11 @@ public class jSeisCalView extends JFrame {
          * Set data displays => tabbed
          */
         
-        bhz = new DisplayChannel(m_model.buffers.bhz,21600000); // 4h
+        bhz = new DisplayChannel(m_model.buffers.bhz,3600000); // 1h
         m_model.buffers.bhz.addObserver(bhz);
-        bhn = new DisplayChannel(m_model.buffers.bhn,21600000); // 4h
+        bhn = new DisplayChannel(m_model.buffers.bhn,3600000); // 1h
         m_model.buffers.bhn.addObserver(bhn);
-        bhe = new DisplayChannel(m_model.buffers.bhe,21600000); // 4h
+        bhe = new DisplayChannel(m_model.buffers.bhe,3600000); // 1h
         m_model.buffers.bhe.addObserver(bhe);
         bhz.setOpaque(true);
         bhn.setOpaque(true);
@@ -218,18 +190,6 @@ public class jSeisCalView extends JFrame {
         tabbedPane.add("BHN",bhn);
         tabbedPane.add("BHE",bhe);
         
-        /*hhz = new DisplayChannel(m_model.buffers.hhz,1200000);
-        m_model.buffers.hhz.addObserver(hhz);
-        hhn = new DisplayChannel(m_model.buffers.hhn,1200000);
-        m_model.buffers.hhn.addObserver(hhn);
-        hhe = new DisplayChannel(m_model.buffers.hhe,1200000);
-        m_model.buffers.hhe.addObserver(hhe);
-        hhz.setOpaque(true);
-        hhn.setOpaque(true);
-        hhe.setOpaque(true);
-        tabbedPane.add("HHZ",hhz);
-        tabbedPane.add("HHN",hhn);
-        tabbedPane.add("HHE",hhe);*/
         
         bmz = new DisplayChannelPOS(m_model.buffers.bmz,200000);
         m_model.buffers.bmz.addObserver(bmz);
@@ -276,24 +236,13 @@ public class jSeisCalView extends JFrame {
         /*
          * Add Menus
          */
-        
-        menuViews.add(menuItemSTS1);
-        menuViews.add(menuItemSTS2);
-        
-        
-        menuWizards.add(menuItemSetup);
-        menuWizards.add(menuItemAbsoluteCalib);
-        menuWizards.add(menuItemElectricalCalib);
-        
+               
        	menuOptions.add(menuItemSave);
 		menuOptions.add(menuItemOpen);
 		menuOptions.add(menuItemAbout);
 		menuOptions.add(menuCalib);
 
-		//bar.add(menuViews);
-		//bar.add(menuWizards);
 		bar.add(menuOptions);
-		//bar.add(menuQuit);
 		setJMenuBar(bar);
 
 		/*
@@ -302,7 +251,7 @@ public class jSeisCalView extends JFrame {
         pack();
         setTitle("jSeisCal - v" + version);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(800, 600);
+        setSize(1024, 768);
 
     }
     
@@ -312,9 +261,6 @@ public class jSeisCalView extends JFrame {
     	bhz.clear();
     	bhn.clear();
     	bhe.clear();
-    	//hhz.clear();
-    	//hhn.clear();
-    	//hhe.clear();
     	bmz.clear();
     	bmn.clear();
     	bme.clear();
@@ -323,6 +269,8 @@ public class jSeisCalView extends JFrame {
     
     private void BuildTablePanel() {
     	
+    	int y=0;
+    	
         tablePanel.setLayout(new GridBagLayout());
         
         GridBagConstraints gbcTable = new GridBagConstraints();
@@ -330,92 +278,74 @@ public class jSeisCalView extends JFrame {
         gbcTable.gridheight = 1;
         gbcTable.weightx = 1.;
         gbcTable.fill = GridBagConstraints.HORIZONTAL;
-        
-        gbcTable.gridx = 0;
-        gbcTable.gridy = 0;
-        gbcTable.gridwidth = 1;
-        tablePanel.add(m_tableAddressLb, gbcTable);
-        gbcTable.gridx = 1;
-        gbcTable.gridy = 0;
-        gbcTable.gridwidth = 2;
-        tablePanel.add(m_tableAddressTf, gbcTable);
-        
-        gbcTable.gridx = 0;
-        gbcTable.gridy = 1;        
-        gbcTable.gridwidth = GridBagConstraints.REMAINDER;
-        
-        JPanel tableCommands = new JPanel(new GridLayout(2,2));
-        tableCommands.add(m_tableConnnectBtn);
-        tableCommands.add(m_tableModeBtn);
-        tableCommands.add(m_tablePushBtn);
-        tablePanel.add(tableCommands, gbcTable);
-        
+                   
         gbcTable.gridwidth = 1;
         gbcTable.gridx = 0;
-        gbcTable.gridy = 3;
+        gbcTable.gridy = y;
         tablePanel.add(m_tableDisplacementLb, gbcTable);
         gbcTable.gridx = 1;
-        gbcTable.gridy = 3;
+        gbcTable.gridy = y;
         gbcTable.gridwidth = 2;
         tablePanel.add(m_tableDisplacementTf, gbcTable);
 
+        y++;
         gbcTable.gridx = 0;
-        gbcTable.gridy = 4;
+        gbcTable.gridy = y;
         gbcTable.gridwidth = 1;
         tablePanel.add(m_tableFreePeriodLb, gbcTable);
         gbcTable.gridx = 1;
-        gbcTable.gridy = 4;
+        gbcTable.gridy = y;
         gbcTable.gridwidth = 2;
         tablePanel.add(m_tableFreePeriodTf, gbcTable);   
         
+        y++;
         gbcTable.gridx = 0;
-        gbcTable.gridy = 5;
+        gbcTable.gridy = y;
         gbcTable.gridwidth = 1;
         tablePanel.add(m_tableDampingLb, gbcTable);
         gbcTable.gridx = 1;
-        gbcTable.gridy = 5;
+        gbcTable.gridy = y;
         gbcTable.gridwidth = 2;
         tablePanel.add(m_tableDampingTf, gbcTable);
         
+        y++;
         gbcTable.gridx = 0;
-        gbcTable.gridy = 6;
+        gbcTable.gridy = y;
         gbcTable.gridwidth = 1;
         tablePanel.add(m_tableBitsLb, gbcTable);
         gbcTable.gridx = 1;
-        gbcTable.gridy = 6;
+        gbcTable.gridy = y;
         gbcTable.gridwidth = 2;
         tablePanel.add(m_tableBitsTf, gbcTable);
         
+        y++;
         gbcTable.gridx = 0;
-        gbcTable.gridy = 7;
+        gbcTable.gridy = y;
         gbcTable.gridwidth = 1;
         tablePanel.add(m_tableVoltsLb, gbcTable);
         gbcTable.gridx = 1;
-        gbcTable.gridy = 7;
+        gbcTable.gridy = y;
         gbcTable.gridwidth = 2;
         tablePanel.add(m_tableVoltsTf, gbcTable);
         
+        y++;
         gbcTable.gridx = 0;
-        gbcTable.gridy = 8;
+        gbcTable.gridy = y;
         gbcTable.gridwidth = 1;
         tablePanel.add(m_tableChannelLb, gbcTable);
         gbcTable.gridx = 1;
-        gbcTable.gridy = 8;
+        gbcTable.gridy = y;
         gbcTable.gridwidth = 2;
         tablePanel.add(m_tableChannelLst, gbcTable);
-        gbcTable.gridx = 1;
-        gbcTable.gridy = 9;
-        gbcTable.gridwidth = 2;
-        tablePanel.add(m_tableTrigHH, gbcTable);
-        
+               
+        y++;
         gbcTable.gridx = 0;
-        gbcTable.gridy = 10;
+        gbcTable.gridy = y;
         gbcTable.gridwidth = 3;
         gbcTable.fill = GridBagConstraints.HORIZONTAL;
         tablePanel.add(m_startBtn, gbcTable);
 
         //... Initialize components
-        m_tableAddressTf.setText(m_model.getTableAddress());
         m_tableDisplacementTf.setText(m_model.getTableDisplacement());
         m_tableFreePeriodTf.setText(m_model.getTableFreePeriod());
         m_tableDampingTf.setText(m_model.getTableDamping());
@@ -423,7 +353,6 @@ public class jSeisCalView extends JFrame {
         m_tableVoltsTf.setText(m_model.getTableVolts());
         m_tableChannelLst.setSelectedItem(m_model.getTableChannel());
         
-        //tablePanel.setBorder(new TitledBorder(LineBorder.createGrayLineBorder(),"Calibration Table"));
         
         
     }
@@ -493,7 +422,6 @@ private void BuildMetrozetPanel() {
         gbcMetrozet.gridwidth = 3;
         metrozetPanel.add(metrozetTabbedPane, gbcMetrozet);
 
-        //metrozetPanel.setBorder(new TitledBorder(LineBorder.createGrayLineBorder(),"Metrozet"));
         
         
     }
@@ -501,7 +429,6 @@ private void BuildMetrozetPanel() {
 
 
 private void BuildeCalibPanel() {
-	int x=0;
 	int y=0;
 	
 	eCalibPanel.setLayout(new GridBagLayout());
@@ -539,34 +466,13 @@ private void BuildeCalibPanel() {
     gbceCalib.gridx = 0;
     gbceCalib.gridy = y;
     gbceCalib.gridwidth = 2;
-    eCalibPanel.add(m_metrozetSigLst,gbceCalib );
+    eCalibPanel.add(m_metrozetSWEEP,gbceCalib );
     y++;
     gbceCalib.gridx = 0;
     gbceCalib.gridy = y;
-    gbceCalib.gridwidth = 1;    
-    eCalibPanel.add(m_sisTypeLb,gbceCalib);    
-    gbceCalib.gridx = 1;
-    gbceCalib.gridy = y;
-    gbceCalib.gridwidth = 1;
-    eCalibPanel.add(m_sisLst,gbceCalib );
-    y++;
-    gbceCalib.gridx = 0;
-    gbceCalib.gridy = y;
-    gbceCalib.gridwidth = 1;    
-    eCalibPanel.add(m_chTypeLb,gbceCalib);    
-    gbceCalib.gridx = 1;
-    gbceCalib.gridy = y;
-    gbceCalib.gridwidth = 1;
-    eCalibPanel.add(m_chLst,gbceCalib );
-    y++;
-    gbceCalib.gridx = 0;
-    gbceCalib.gridy = y;
-    gbceCalib.gridwidth = 2;
-    eCalibPanel.add(m_calibStartBtn,gbceCalib );
-    y++;
-    
+    gbceCalib.gridwidth = 2;    
+    eCalibPanel.add(m_metrozetSTEP,gbceCalib);    
 
-    
     
 }
    
@@ -657,10 +563,6 @@ private void BuildeCalibPanel() {
         return m_q330AuthCodeTf.getText();
     }
     
-    String getTableAddress() {
-        return m_tableAddressTf.getText();
-    }
-    
     String getTableDisplacement() {
         return m_tableDisplacementTf.getText();
     }
@@ -690,9 +592,6 @@ private void BuildeCalibPanel() {
         return m_metrozetCommandTf.getText();
     }
     
-    boolean getChType() {
-    	return (this.m_chLst.getSelectedItem() == "HH");
-    }
     
 /**
  * Set methods
@@ -709,9 +608,6 @@ private void BuildeCalibPanel() {
     }
     void setQ330DataPort(String s) {
     	this.m_q330DataPortLst.setSelectedItem(s);;
-    }
-    void setTableAddress(String s) {
-    	this.m_tableAddressTf.setText(s);
     }
     void setTableDisplacement(String s) {
     	this.m_tableDisplacementTf.setText(s);
@@ -793,10 +689,6 @@ private void BuildeCalibPanel() {
     
     ////////////////////////////////////////////////////////////////////////////////////////    
     
-    void addTableAddressTfListener(ActionListener mal) {
-    	m_tableAddressTf.addActionListener(mal);
-    	m_tableAddressTf.addFocusListener((FocusListener) mal);
-    }
     void addTableDisplacementTfListener(ActionListener mal) {
     	m_tableDisplacementTf.addActionListener(mal);
     	m_tableDisplacementTf.addFocusListener((FocusListener) mal);
@@ -873,12 +765,7 @@ private void BuildeCalibPanel() {
     	m_metrozetE.spBtn.addActionListener(mal);
     	m_metrozetE.stopBtn.addActionListener(mal);
     	m_metrozetE.boomAdcBtn.addActionListener(mal);
-    	
-    	/*m_metrozetDiagAnalPwrMinusAdc.addActionListener(mal);
-    	m_metrozetDiagAnalPwrPlusAdc.addActionListener(mal);
-    	m_metrozetDiagInputPwrMinusAdc.addActionListener(mal);
-    	m_metrozetDiagInputPwrPlusAdc.addActionListener(mal);*/
-    	
+    	   	
     	
     }
     
@@ -886,23 +773,19 @@ private void BuildeCalibPanel() {
     void addElectricalCalibListener(ActionListener mal) {	
     	m_metrozetEZSig.addActionListener(mal);
     	m_metrozetNZSig.addActionListener(mal);
-    	m_calibStartBtn.addActionListener(mal);  
     	m_metrozetCalibrate.addActionListener(mal);  
     	m_metrozetIntCalDisconnect.addActionListener(mal);  
     	m_metrozetIntCalVelocity.addActionListener(mal);  
-    	m_metrozetReturnCalibBtn.addActionListener(mal);  
+    	m_metrozetReturnCalibBtn.addActionListener(mal); 
+    	m_metrozetSWEEP.addActionListener(mal);  
+    	m_metrozetSTEP.addActionListener(mal);  
     	
     }
 
     
     ////////////////////////////////////////////////////////////////////////////////////////
     
-    void addMenuItemSTS1Listener(ActionListener mal) {
-    	menuItemSTS1.addActionListener(mal);
-    }
-    void addMenuItemSTS2Listener(ActionListener mal) {
-    	menuItemSTS2.addActionListener(mal);
-    }    
+   
     void addMenuItemSaveListener(ActionListener mal) {
     	menuItemSave.addActionListener(mal);
     }
@@ -918,20 +801,11 @@ private void BuildeCalibPanel() {
     void addMenuCalibListener(ActionListener mal) {
     	menuCalib.addActionListener(mal);
     }
-    void addMenuItemSetupListener(ActionListener mal) {
-    	menuItemSetup.addActionListener(mal);
-    }
-    void addMenuItemAbsoluteCalibListener(ActionListener mal) {
-    	menuItemAbsoluteCalib.addActionListener(mal);
-    }
-    void addMenuItemElectricalCalibListener(ActionListener mal) {
-    	menuItemElectricalCalib.addActionListener(mal);
-    }
     
     ////////////////////////////////////////////////////////////////////////////////////////
     
     void ShowAbout() {
-    	JOptionPane.showMessageDialog(null, "Java Seismometer Calibration Tool - v"+version+" \nN. LEROY / GEOSCOPE - 2010\n\nDisplay Based On JFreeChart");
+    	JOptionPane.showMessageDialog(null, "Java Seismometer Calibration Tool - v"+version+" \nN. LEROY / GEOSCOPE - 2012\n\nDisplay Based On JFreeChart");
     }
     void ShowResult(String value) {
     	CalcResult result = new CalcResult(m_model.dataset, true);
@@ -942,95 +816,7 @@ private void BuildeCalibPanel() {
     	return (DisplayChannel) tabbedPane.getSelectedComponent();
     }
     
-/**
- * Wizards methods
- */
-    public String ShowCalib1() {
-    	Object[] possibilities = {"Q330HR", "Q330SR", "Other"};
-    	String s = (String)JOptionPane.showInputDialog(
-    	                    null,
-    	                    "Digitizer",
-    	                    "Customized Dialog",
-    	                    JOptionPane.PLAIN_MESSAGE,
-    	                    null,
-    	                    possibilities,
-    	                    "Q330HR");
-
-
-		System.out.println(s);
-		return s;
-    }
-    
-    
-    public String ShowCalib2() {
-    	Object[] possibilities = {"STS1", "STS2", "Other"};
-    	String s = (String)JOptionPane.showInputDialog(
-    	                    null,
-    	                    "Seismometer",
-    	                    "Customized Dialog",
-    	                    JOptionPane.PLAIN_MESSAGE,
-    	                    null,
-    	                    possibilities,
-    	                    "STS1");
-
-
-		System.out.println(s);
-		return s;
-    }
-    public String ShowCalib3() {
-    	Object[] possibilities = {"HHZ", "HHN", "HHE", "BHZ", "BHN", "BHE"};
-    	String s = (String)JOptionPane.showInputDialog(
-    	                    null,
-    	                    "Axis",
-    	                    "Customized Dialog",
-    	                    JOptionPane.PLAIN_MESSAGE,
-    	                    null,
-    	                    possibilities,
-    	                    "HHZ");
-		System.out.println(s);
-		return s;
-    }
-    
-    
-    public String ShowSetup1() {
-    	String s = (String)JOptionPane.showInputDialog(null, "Q330 IP Address : ");
-		System.out.println(s);
-		return s;
-    }
-    public String ShowSetup2() {
-    	String s = (String)JOptionPane.showInputDialog(null, "Q330 Serial Number : ");
-		System.out.println(s);
-		return s;
-    }
-    public String ShowSetup3() {
-    	String s = (String)JOptionPane.showInputDialog(null, "Q330 Authorization code : ");
-		System.out.println(s);
-		return s;
-    }
-    public String ShowSetup4() {
-    	String s = (String)JOptionPane.showInputDialog(null, "Q330 Data Port : ");
-		System.out.println(s);
-		return s;
-    }
-    
-    
-    public void STS1View() {
-    	tabbedPane.add("BMZ", bmz);
-    	tabbedPane.add("BMN", bmn);
-    	tabbedPane.add("BME", bme);
-		tabbedPaneConfig.add("Metr.", metrozetPanel );
-		tabbedPaneConfig.add("Elec.", eCalibPanel);
-    	this.pack();
-    }
-    public void STS2View() {
-    	tabbedPane.remove(bmz);
-    	tabbedPane.remove(bmn);
-    	tabbedPane.remove(bme);
-    	tabbedPaneConfig.remove(this.metrozetPanel);
-    	tabbedPaneConfig.remove(this.eCalibPanel);
-    	this.pack();
-    }
-    
+   
     public void ToggleStartStop() {
     	if (m_startBtn.getText() == "Start") {
     		m_startBtn.setText("Stop");	
@@ -1040,23 +826,6 @@ private void BuildeCalibPanel() {
     	}	
     }
     
-    public void ToggleECalibStartStop() {
-    	if (m_calibStartBtn.getText() == "Start") {
-    		m_calibStartBtn.setText("Stop");	
-    	}
-    	else {
-    		m_calibStartBtn.setText("Start");
-    	}	
-    }
-    
-    public void ToggleCalibStartStop() {
-    	if (m_calibStartBtn.getText() == "Start") {
-    		m_calibStartBtn.setText("Stop");	
-    	}
-    	else {
-    		m_calibStartBtn.setText("Start");
-    	}	
-    }
     
     public void refresh() {
     	

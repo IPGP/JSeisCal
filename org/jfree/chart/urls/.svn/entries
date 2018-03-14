@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://svn.ipgp.fr/instru_geos"
+   name=""
+   revision="238"
+   last-author="leroy"
+   url="https://svn.ipgp.fr/instru_geos/jSeisCal/org/jfree/chart/urls"
+   uuid="308c3184-852a-42d4-b679-f66096868c1e"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="CategoryURLGenerator.java"
+   checksum="6738daa1413522ae76579bdd76c8b962"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="CustomCategoryURLGenerator.java"
+   checksum="3026f55a081f1c070f53c851b4246076"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="CustomPieURLGenerator.java"
+   checksum="4e1b4a3113839d61b93df06fc584c52f"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="CustomXYURLGenerator.java"
+   checksum="231f7fcf31d39651e0d8b3e7b949be95"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="PieURLGenerator.java"
+   checksum="cac110b60f7d0c443b41ee2984a07242"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="StandardCategoryURLGenerator.java"
+   checksum="ce39900658e2e98a4e77c9c1e579b5c1"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="StandardPieURLGenerator.java"
+   checksum="0b40058c30e17026c1198054969ae811"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="StandardXYURLGenerator.java"
+   checksum="cb2aa37ba24967708c85c4f891ef542f"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="StandardXYZURLGenerator.java"
+   checksum="78438be4ac6909be6bba0d2aa8d093cd"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="TimeSeriesURLGenerator.java"
+   checksum="0c2c25b709545fce9e2f521ee60ce77f"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="URLUtilities.java"
+   checksum="a4029802e7080e222da197e543b1d6e0"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="XYURLGenerator.java"
+   checksum="e231a5f0efcfd3df7d207c32e4d39c21"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="XYZURLGenerator.java"
+   checksum="8589be0e16c02b7dd9e44db72baef01e"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="package.html"
+   checksum="664b6b1af359008369b794a82009e402"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+</wc-entries>

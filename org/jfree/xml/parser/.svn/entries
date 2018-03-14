@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://svn.ipgp.fr/instru_geos"
+   name=""
+   revision="238"
+   last-author="leroy"
+   url="https://svn.ipgp.fr/instru_geos/jSeisCal/org/jfree/xml/parser"
+   uuid="308c3184-852a-42d4-b679-f66096868c1e"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="AbstractXmlReadHandler.java"
+   checksum="188d01c11ffe0462b6c75640e08dad35"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="Base64ReadHandler.java"
+   checksum="d997c6ff41eb50a2812f650d1e6701fc"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="RootXmlReadHandler.java"
+   checksum="7e29984cd88d8801f473446ccd6c89d4"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="XmlReadHandler.java"
+   checksum="3d0812571331cecfecd1d0dfa5aba2a6"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="XmlReaderException.java"
+   checksum="eb4233436f78a31ee065db3580a4a2c6"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="coretypes"
+   kind="dir"/>
+<entry
+   name="package.html"
+   checksum="a30d7fc2a643d44e2306bbdb9f23a5bf"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+</wc-entries>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://svn.ipgp.fr/instru_geos"
+   name=""
+   revision="238"
+   last-author="leroy"
+   url="https://svn.ipgp.fr/instru_geos/jSeisCal/org/jfree/chart/needle"
+   uuid="308c3184-852a-42d4-b679-f66096868c1e"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ArrowNeedle.java"
+   checksum="4aba27bb76cd26320cc12e7838f28fd2"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="LineNeedle.java"
+   checksum="597d41d7c846c5f4d1f2b38c19290930"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="LongNeedle.java"
+   checksum="49cdf1fc9fa3284579f9c2edc970db06"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="MeterNeedle.java"
+   checksum="3537796229d9d33dfa86e0fa614cc1f0"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="MiddlePinNeedle.java"
+   checksum="e78825d75fd45a955d5a0551a2bd635e"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="PinNeedle.java"
+   checksum="d03657bbfbacf6bf88ae2ef8dc6f4ff7"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="PlumNeedle.java"
+   checksum="7e5de42f47606b2c196b2d04730e6a79"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="PointerNeedle.java"
+   checksum="32349bd13f2682b724d40fa1545e6502"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ShipNeedle.java"
+   checksum="c5307896e0b5a65f269f56034d0d2103"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="WindNeedle.java"
+   checksum="502675996f8c3ce806d8e472e9fa2763"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="package.html"
+   checksum="5d3af39d2a9c7ef14bc77586240772cb"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+</wc-entries>

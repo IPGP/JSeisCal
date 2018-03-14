@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://svn.ipgp.fr/instru_geos"
+   name=""
+   revision="238"
+   last-author="leroy"
+   url="https://svn.ipgp.fr/instru_geos/jSeisCal/org/jfree/data/time"
+   uuid="308c3184-852a-42d4-b679-f66096868c1e"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="DateRange.java"
+   checksum="65f25b70ebe9574cbdbee7f2c208b0a0"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="Day.java"
+   checksum="46def301354c6651b85174b6d2bbc4bb"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="DynamicTimeSeriesCollection.java"
+   checksum="43492b0cc18cd840e1752e8310debee6"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="FixedMillisecond.java"
+   checksum="64819b5e686319736e308b7d255722e3"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="Hour.java"
+   checksum="794e63191ef72d9496255baafcd0787c"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="Millisecond.java"
+   checksum="a05ae86ad2a90bae8f00fc10c3edd4c7"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="Minute.java"
+   checksum="a1558a40bc5ecb8b9470ab1f42be91c7"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="Month.java"
+   checksum="56a339ba771a9290fccfcfd39bf7415b"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="MovingAverage.java"
+   checksum="9a6ee7881a22a3906a615f75319210a1"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="Quarter.java"
+   checksum="ac5fbe3dc40bed0fc485230dfc041b24"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="RegularTimePeriod.java"
+   checksum="0b8d798fdfb20bc6907be40a595f2168"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="Second.java"
+   checksum="3fcaf34be2bbb269aacc1840199e5a77"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="SimpleTimePeriod.java"
+   checksum="ba17cd4747f36b6de09dc5ffb5148956"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="TimePeriod.java"
+   checksum="4c4edda06b97af124433fcc1dc04c7d7"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="TimePeriodAnchor.java"
+   checksum="2a0f87c09c6a73d043738420422927bd"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="TimePeriodFormatException.java"
+   checksum="60a87da6f15850dc222304fdb7ab18c2"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="TimePeriodValue.java"
+   checksum="57c5a9c55498fb5c767586a24923db30"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="TimePeriodValues.java"
+   checksum="bb798e50ebdac1af777d919cc784bf99"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="TimePeriodValuesCollection.java"
+   checksum="81ee1840ca079aed8909ef96d5887268"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="TimeSeries.java"
+   checksum="739cc3c16d44270f6904487d74fe64a7"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="TimeSeriesCollection.java"
+   checksum="326a58826e727590074eb75511756706"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="TimeSeriesDataItem.java"
+   checksum="dfa734a1dd809dbaaba4b98761ce513e"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="TimeSeriesTableModel.java"
+   checksum="f48afa710573d9efd3c1d851cbbefd44"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="TimeTableXYDataset.java"
+   checksum="109804bcf61695a3896dae52b97c057b"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="Week.java"
+   checksum="3a7b3674c892f57fef9acd0d0b376549"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="Year.java"
+   checksum="be52e58e40923fdcccff454791caf8b1"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ohlc"
+   kind="dir"/>
+<entry
+   name="package.html"
+   checksum="10a0d2db428ea2965b1b8a7f935f3e19"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+</wc-entries>

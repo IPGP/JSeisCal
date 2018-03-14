@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://svn.ipgp.fr/instru_geos"
+   revision="238"
+   last-author="leroy"
+   uuid="308c3184-852a-42d4-b679-f66096868c1e"
+   url="https://svn.ipgp.fr/instru_geos/jSeisCal/calc"
+   committed-rev="19"
+   kind="dir"
+   committed-date="2010-11-04T16:54:09.350805Z"/>
+<entry
+   name="Calc.java"
+   checksum="7f29fefbe7a3d55e429d284f28800be0"
+   last-author="leroy"
+   text-time="2010-01-14T18:01:35.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="CalcDataset.java"
+   checksum="5c5c8895d547a37421254682ab7aee1d"
+   last-author="leroy"
+   text-time="2010-01-14T18:01:35.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="CalcResult.java"
+   checksum="5257f16e5b69e3a6bed4b29c1ef41ebd"
+   last-author="leroy"
+   text-time="2010-02-03T13:42:58.000000Z"
+   committed-rev="12"
+   kind="file"
+   committed-date="2010-02-03T13:42:58.453056Z"/>
+<entry
+   name="CalcResultPanel.java"
+   checksum="a41972cb109eaacc2f2a1d10515fc819"
+   last-author="leroy"
+   text-time="2010-01-14T18:01:35.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="Cmplx.java"
+   checksum="2386a442af0b7dfdb9e867c77c6aa034"
+   last-author="leroy"
+   committed-rev="19"
+   text-time="2010-03-01T18:12:52.000000Z"
+   kind="file"
+   committed-date="2010-11-04T16:54:09.350000Z"/>
+<entry
+   name="ECalibDataset.java"
+   schedule="delete"
+   checksum="94c34cd5997c90190222887da2953dd8"
+   last-author="leroy"
+   text-time="2010-03-24T16:19:04.000000Z"
+   committed-rev="18"
+   kind="file"
+   committed-date="2010-03-24T16:19:04.056641Z"/>
+<entry
+   name="ECalibResult.java"
+   schedule="delete"
+   checksum="cfd9693a673ae77493a57e7f2d3dd58c"
+   last-author="leroy"
+   text-time="2010-03-24T16:19:04.000000Z"
+   committed-rev="18"
+   kind="file"
+   committed-date="2010-03-24T16:19:04.056641Z"/>
+<entry
+   name="ECalibResultPanel.java"
+   schedule="delete"
+   checksum="c57f094a3e2e6ea221205fa8a759107b"
+   last-author="leroy"
+   text-time="2010-01-14T18:01:35.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+</wc-entries>

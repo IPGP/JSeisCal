@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://svn.ipgp.fr/instru_geos"
+   name=""
+   revision="238"
+   last-author="leroy"
+   url="https://svn.ipgp.fr/instru_geos/jSeisCal/org/jfree/xml"
+   uuid="308c3184-852a-42d4-b679-f66096868c1e"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="AbstractElementDefinitionHandler.java"
+   checksum="960d384cd4fe7f416584ee95b526fc32"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="CommentHandler.java"
+   checksum="b2ae919c627f14048b048c2dfeba5475"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ElementDefinitionException.java"
+   checksum="7a88b3c37772266255057877d59a3040"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ElementDefinitionHandler.java"
+   checksum="102d40ef910f8c57bfdad74a73d71509"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="FrontendDefaultHandler.java"
+   checksum="747315d3d990b860be1403126e34603f"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="JCommonXMLInfo.java"
+   checksum="fd1dc26d3a7b73abc44a4be332d71b93"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ParseException.java"
+   checksum="84eb9b8dac2ecca8b8cd71b1e55f7289"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="Parser.java"
+   checksum="4ae9aaa78ed26dd6bd9ce68504e588ed"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ParserFrontend.java"
+   checksum="40f2abbeaa38a235f1ffed0824fa1bf4"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ParserUtil.java"
+   checksum="6948309e24d71b2511eb74b9dfc87f02"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="attributehandlers"
+   kind="dir"/>
+<entry
+   name="factory"
+   kind="dir"/>
+<entry
+   name="generator"
+   kind="dir"/>
+<entry
+   name="package.html"
+   checksum="a30d7fc2a643d44e2306bbdb9f23a5bf"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="parser"
+   kind="dir"/>
+<entry
+   name="util"
+   kind="dir"/>
+<entry
+   name="writer"
+   kind="dir"/>
+</wc-entries>

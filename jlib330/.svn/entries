@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://svn.ipgp.fr/instru_geos"
+   revision="238"
+   last-author="leroy"
+   uuid="308c3184-852a-42d4-b679-f66096868c1e"
+   url="https://svn.ipgp.fr/instru_geos/jSeisCal/jlib330"
+   committed-rev="168"
+   kind="dir"
+   committed-date="2012-01-25T12:51:39.037241Z"/>
+<entry
+   name="CRC32.java"
+   checksum="b6402c798eb1c44a4271f2b35fdee523"
+   last-author="leroy"
+   text-time="2012-01-25T12:49:40.000000Z"
+   committed-rev="168"
+   kind="file"
+   committed-date="2012-01-25T12:51:39.037000Z"/>
+<entry
+   name="Data.java"
+   checksum="017d33884e2503b1139445d1df6a2f84"
+   last-author="leroy"
+   text-time="2010-03-24T16:19:04.000000Z"
+   committed-rev="18"
+   kind="file"
+   committed-date="2010-03-24T16:19:04.056641Z"/>
+<entry
+   name="DataChannel.java"
+   checksum="43913c09eaa00e6fb29f324a327d0217"
+   last-author="leroy"
+   text-time="2010-03-24T16:19:04.000000Z"
+   committed-rev="18"
+   kind="file"
+   committed-date="2010-03-24T16:19:04.056641Z"/>
+<entry
+   name="DataListener.java"
+   checksum="313c0da0b858fcdb8cdc0b09c17b86b8"
+   last-author="leroy"
+   text-time="2010-01-14T18:01:35.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="Util.java"
+   checksum="82ce32a4fed4641594a443a0c9af5f24"
+   last-author="leroy"
+   text-time="2010-01-14T18:01:35.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="q330.java"
+   checksum="b696970d8e2aa45944011d257a1d44b1"
+   last-author="leroy"
+   text-time="2010-01-14T18:01:35.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+</wc-entries>

@@ -23,7 +23,8 @@ public class SenaTCPListener implements Runnable  {
 	}
 	
 	public void run() {
-		while(true) {
+		boolean cond=true;
+		while(cond) {
 			try {			
 				buffer = inFromServer.readLine();
 				if (!buffer.startsWith("Ticks") && !buffer.startsWith("Seconds") && !buffer.equals("")) {
@@ -31,6 +32,7 @@ public class SenaTCPListener implements Runnable  {
 					console.write(buffer);			
 				}							
 			} catch (IOException e) {
+				cond=false;
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}

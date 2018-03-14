@@ -35,10 +35,7 @@ public class DataChannel extends Observable {
 	public int calibLength = 0;
 	public double [][] calibSeg;
 	
-	public int maxTime = 21600; // 4h max
-	
-	
-
+	public int maxTime = 3600; // 1h max
 	   
     public DataChannel(String strName, int sr) {
     	name = strName;
@@ -139,9 +136,6 @@ public class DataChannel extends Observable {
     			
     			segmentTotal = 0;
     			segmentReceived = 0;
-    			//reconstructedBlocLength = 0;
-    			//segmentBlocs = new byte[10][]; // max 10 segments  
-    			
     			
     		}
     	}
@@ -153,7 +147,6 @@ public class DataChannel extends Observable {
 		/* get nibbles */
 		int offset = Util.Bytes2ToInt(bloc, 8);
 		int nibblesoffset = 10;
-		int nibblesbytes = offset - nibblesoffset;
 		int nibbles = (size - offset) / 4;
 		int n = 0;
 		int currNibble = 0;
@@ -163,15 +156,12 @@ public class DataChannel extends Observable {
 		int tempInt;
 		int tempval = 0;
 		int currNum = 0;
-		boolean end = false;
 		int i = 0;
 		int j = 0;
 		
 		int previous = Util.DWordToInt(bloc, 4);
 		if (previous >  536870911)
 			previous -= 1073741824;
-
-		//System.out.println("previous = " + previous);
 		
 		values[currNum++] = previous;
 
@@ -373,7 +363,6 @@ public class DataChannel extends Observable {
 				}
 			}
 		}
-		//System.out.println("N =" + n + " " + currNum + " " + nibbles + " " + size +" "+i+" "+j+" "+offset);
 		return values;
 	}
 	

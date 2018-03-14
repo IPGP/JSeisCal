@@ -102,7 +102,8 @@ public class DisplayChannel extends JPanel implements Observer, ActionListener {
 		TimeSeriesCollection dataset = new TimeSeriesCollection();
 		dataset.addSeries(this.chan);
 
-		domain.setAutoRange(true);
+		//domain.setAutoRange(true);
+		domain.setFixedAutoRange(30000);
 		
 		range = new NumberAxis(channel.name);
 		range.setAutoRange(true);
@@ -204,7 +205,8 @@ public class DisplayChannel extends JPanel implements Observer, ActionListener {
 		ms = ms - 300000;
 		now2.setTime(ms);
 		domain.setRange(now2, now);*/
-			if (min<max) {
+			range.setAutoRange(true);
+			/*if (min<max) {
 				if ((max>maxold) && (min<minold)) {
 					maxold=max;
 					minold=min;
@@ -222,10 +224,10 @@ public class DisplayChannel extends JPanel implements Observer, ActionListener {
 					range.setRange((double)minold, (double)(maxold));
 					//System.out.println("range");
 				}
-			}	
+			}	*/
 		}
     	timer = (System.currentTimeMillis() - timer);
-    	System.out.println("ch : " + this.dc.name +" - timer : " + timer);
+    	//System.out.println("ch : " + this.dc.name +" - timer : " + timer);
 		
 	}
 	

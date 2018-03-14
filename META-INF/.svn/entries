@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="https://svn.ipgp.fr/instru_geos"
+   revision="238"
+   last-author="leroy"
+   uuid="308c3184-852a-42d4-b679-f66096868c1e"
+   url="https://svn.ipgp.fr/instru_geos/jSeisCal/META-INF"
+   committed-rev="19"
+   kind="dir"
+   committed-date="2010-11-04T16:54:09.350805Z"/>
+<entry
+   name="MANIFEST.MF"
+   checksum="6e11a5a1f95142d33777b92b77c16f8a"
+   last-author="leroy"
+   text-time="2010-11-04T16:38:32.000000Z"
+   committed-rev="19"
+   kind="file"
+   committed-date="2010-11-04T16:54:09.350000Z"/>
+</wc-entries>

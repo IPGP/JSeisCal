@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://svn.ipgp.fr/instru_geos"
+   name=""
+   revision="238"
+   last-author="leroy"
+   url="https://svn.ipgp.fr/instru_geos/jSeisCal/org/jfree/chart"
+   uuid="308c3184-852a-42d4-b679-f66096868c1e"
+   committed-rev="2"
+   kind="dir"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ChartColor.java"
+   checksum="9548053423e7fb5f3ca1a3afb4fd7831"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ChartFactory.java"
+   checksum="8ff1b4cf709c8c6f5cc332e5d6e6dfe3"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ChartFrame.java"
+   checksum="e74b8cd83d3575947f7aaa4e22ce1423"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ChartMouseEvent.java"
+   checksum="fdb8280c37ed7b124e0b06ef8888eb78"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ChartMouseListener.java"
+   checksum="8db91516816149dd9f1350179a3d6460"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ChartPanel.java"
+   checksum="c25e0b65e30391b9cad81abd01765cc5"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ChartRenderingInfo.java"
+   checksum="49e924ca2c658cf9ff24991714bea906"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ChartTheme.java"
+   checksum="19e9f6685ba7d227192470f2cd6e502f"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ChartTransferable.java"
+   checksum="6609669d90ea932ba16115946a32e94e"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ChartUtilities.java"
+   checksum="cb2e664c23b223a11ec8883dd3957ba0"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ClipPath.java"
+   checksum="2acef07f5d57500a53dff9e216171ca1"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="DrawableLegendItem.java"
+   checksum="89950200ff0a0aa8e01b6f55b890c5d7"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="Effect3D.java"
+   checksum="b561d541d588b599825ada06acfadf13"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="HashUtilities.java"
+   checksum="300c63ce581a5ec5fb201ffd94ff037f"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="JFreeChart.java"
+   checksum="580ccc508346b15cb29ee32fe38c07ed"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="LegendItem.java"
+   checksum="4f6087de368cdec69cd254372db81c32"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="LegendItemCollection.java"
+   checksum="bf7fce9931552474aa008d1945e4736e"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="LegendItemSource.java"
+   checksum="5cb2b54aa2fd95a8eaaee4577ee29fba"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="LegendRenderingOrder.java"
+   checksum="e416857058d9ef18615ce9cca3cc94ee"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="LocalizationBundle.properties"
+   checksum="1417e817d04f4e59566b97dee0e4daac"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="LocalizationBundle_de.properties"
+   checksum="e6ff0497ccf939d523ae480aa92a3086"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="LocalizationBundle_es.properties"
+   checksum="18905c71866d377fb4fb1a5e54b05ab4"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="LocalizationBundle_fr.properties"
+   checksum="55f924f307e1c090826be81cbd590046"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="LocalizationBundle_it.properties"
+   checksum="c7d1a4053750bd461fbfa79a8e2e4d06"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="LocalizationBundle_nl.properties"
+   checksum="f1762161500d587ac0d9c91820742a98"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="LocalizationBundle_pl.properties"
+   checksum="328345b3538b19aa1b05c1d62f209ffe"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="LocalizationBundle_pt_BR.properties"
+   checksum="e6866fd7e7e81554f96a73deabd7a11c"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="LocalizationBundle_pt_PT.properties"
+   checksum="6e7d838b90c1a01d9ec4d9191f3c160f"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="LocalizationBundle_ru.properties"
+   checksum="77047709e6e48e3cb011badc567bd2b3"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="LocalizationBundle_zh_CN.properties"
+   checksum="e3e08ebf1d8f124e30947228cd7a1d71"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="LocalizationBundle_zh_TW.properties"
+   checksum="62b57081e94ca9be1c279692a8ecb8d4"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="MouseWheelHandler.java"
+   checksum="ff6f536d11c5328638a744704f438ada"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="PaintMap.java"
+   checksum="1977fb81f533dd865ec0b62e41a72955"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="PolarChartPanel.java"
+   checksum="b04a28327f0fe93bb2aac05bb50a6adc"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="StandardChartTheme.java"
+   checksum="ba3953bf32c101e70eb789b3e078f184"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="StrokeMap.java"
+   checksum="4a7df523b8cec72b597db89e4f7168d9"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="annotations"
+   kind="dir"/>
+<entry
+   name="axis"
+   kind="dir"/>
+<entry
+   name="block"
+   kind="dir"/>
+<entry
+   name="demo"
+   kind="dir"/>
+<entry
+   name="editor"
+   kind="dir"/>
+<entry
+   name="encoders"
+   kind="dir"/>
+<entry
+   name="entity"
+   kind="dir"/>
+<entry
+   name="event"
+   kind="dir"/>
+<entry
+   name="gorilla.jpg"
+   checksum="7c8f45879237ae87959ca5e8e4baeec8"
+   last-author="leroy"
+   text-time="2010-01-14T18:01:35.000000Z"
+   committed-rev="2"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"
+   prop-time="2010-11-04T15:33:52.000000Z"/>
+<entry
+   name="imagemap"
+   kind="dir"/>
+<entry
+   name="labels"
+   kind="dir"/>
+<entry
+   name="needle"
+   kind="dir"/>
+<entry
+   name="package.html"
+   checksum="4e270c7d7b61d3cdb34075e839a902db"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="panel"
+   kind="dir"/>
+<entry
+   name="plot"
+   kind="dir"/>
+<entry
+   name="renderer"
+   kind="dir"/>
+<entry
+   name="resources"
+   kind="dir"/>
+<entry
+   name="servlet"
+   kind="dir"/>
+<entry
+   name="title"
+   kind="dir"/>
+<entry
+   name="urls"
+   kind="dir"/>
+<entry
+   name="util"
+   kind="dir"/>
+</wc-entries>

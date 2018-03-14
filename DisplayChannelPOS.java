@@ -154,7 +154,8 @@ public class DisplayChannelPOS extends JPanel implements Observer, ActionListene
 		dataset.addSeries(chan);
 		dataset.addSeries(mav);
 
-		domain.setAutoRange(true);
+		//domain.setAutoRange(true);
+		domain.setFixedAutoRange(30000);
 		
 		range = new NumberAxis(channel.name);
 		range.setAutoRange(true);
@@ -304,7 +305,7 @@ public class DisplayChannelPOS extends JPanel implements Observer, ActionListene
 
 			chan.setNotify(false);
 			mav.setNotify(false);
-			if (offset > 0) {
+			if (offset >= 0) {
 				for (int k = 0; k < sr; k++) {
 					ms = dc.times[offset + k];
 					now.setTime(ms);
@@ -356,32 +357,6 @@ public class DisplayChannelPOS extends JPanel implements Observer, ActionListene
 
 			}
 
-			// A finir !!
-			/*domain.setAutoRange(false);
-		Date now2 = new Date();
-		ms = ms - 300000;
-		now2.setTime(ms);
-		domain.setRange(now2, now);*/
-			if (min<max) {
-				if ((max>maxold) && (min<minold)) {
-					maxold=max;
-					minold=min;
-					range.setAutoRange(false);
-					range.setRange((double)minold, (double)(maxold));
-					//System.out.println("range");
-				}else if (max>maxold) {
-					maxold=max;
-					range.setAutoRange(false);
-					range.setRange((double)minold, (double)(maxold));
-					//System.out.println("range");
-				}else if (min<minold) {
-					minold=min;
-					range.setAutoRange(false);
-					range.setRange((double)minold, (double)(maxold));
-					//System.out.println("range");
-				}
-			}
-
 			int lenght = sr*10;	
 
 			if (end > lenght) {
@@ -416,9 +391,6 @@ public class DisplayChannelPOS extends JPanel implements Observer, ActionListene
 			}
 
 		}
-		//System.out.println("Max = " + maxi + " " + iMax + " - Min = " + mini + " " + iMin);
-	
-		
 		
 	}
 	

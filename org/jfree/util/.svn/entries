@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://svn.ipgp.fr/instru_geos"
+   name=""
+   revision="238"
+   last-author="leroy"
+   url="https://svn.ipgp.fr/instru_geos/jSeisCal/org/jfree/util"
+   uuid="308c3184-852a-42d4-b679-f66096868c1e"
+   committed-rev="18"
+   kind="dir"
+   committed-date="2010-03-24T16:19:04.056641Z"/>
+<entry
+   name="AbstractObjectList.java"
+   checksum="8cdae1c677552811030ac0ac9807b22c"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ArrayUtilities.java"
+   checksum="6c8d8903adfdaee97dc6c8128097df7f"
+   last-author="leroy"
+   committed-rev="18"
+   text-time="2010-03-24T16:19:04.000000Z"
+   kind="file"
+   committed-date="2010-03-24T16:19:04.056641Z"/>
+<entry
+   name="AttributedStringUtilities.java"
+   checksum="60883576eadb5735af5cbed29bfe2b20"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="BooleanList.java"
+   checksum="242a18bf9fc5ff07ec03e3b5cc27b23d"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="BooleanUtilities.java"
+   checksum="88738f15ea8c6b7dbc1b8d29a247dc75"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ClassComparator.java"
+   checksum="bb02a15e9ab03531f3f93fee88a57506"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="Configuration.java"
+   checksum="1d059d7a395483cbf776311d33d9f0b6"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="DefaultConfiguration.java"
+   checksum="2ff30b601bd2c3c43beb192c58267ec0"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ExtendedConfiguration.java"
+   checksum="19c53c55bf0d0c9668a865c67a1c0b18"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ExtendedConfigurationWrapper.java"
+   checksum="47cf651452c410cb35cab64e9563b9f6"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="FastStack.java"
+   checksum="75d9b328bd5a810575d536c75d83af0e"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="HashNMap.java"
+   checksum="0eb943a9217e275e84023740a400871a"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="LineBreakIterator.java"
+   checksum="2cfc682ad10a2cffd7a36ddfc5f5a274"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="Log.java"
+   checksum="f0f819ba5afcaa1faafc0b50c01b3766"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="LogContext.java"
+   checksum="844d9d1ebd9b271c4f53726ed434684b"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="LogTarget.java"
+   checksum="02c578cfc0069a326e20e071119a9869"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ObjectList.java"
+   checksum="9849d981e1f58b13f18c0479b9f0225f"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ObjectTable.java"
+   checksum="34766c95db7ba97d00250c38b8577145"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ObjectUtilities.java"
+   checksum="c37f5fa0fe6848d082ed593ef4b46d60"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="PaintList.java"
+   checksum="fa6e8031a614390f2ea338ab688be511"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="PaintUtilities.java"
+   checksum="9adca5dc7efafa30b8eb13180801042f"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="PrintStreamLogTarget.java"
+   checksum="58eddf8a583b0c9ba67997dfe2ef4d4e"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="PublicCloneable.java"
+   checksum="a873841334919c3f03ab5f6c7c534ba7"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ReadOnlyIterator.java"
+   checksum="f25fca81e91223a4e39ef388489ca2b9"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ResourceBundleSupport.java"
+   checksum="08aefa98d583d4a02ad9fd1220280a8a"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ResourceBundleWrapper.java"
+   checksum="ef68c5c3c9b4b940469a6d550d37e34a"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="Rotation.java"
+   checksum="51c24abf1eb1b4cb7d87641966f23bf3"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ShapeList.java"
+   checksum="1cd6a58612d77ebee65d71b635ac5e20"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="ShapeUtilities.java"
+   checksum="f996b49d57bc5decf0c55d22ad3823ac"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="SortOrder.java"
+   checksum="2a6a6d7b6301769a9fcaeb53f3389e57"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="SortedConfigurationWriter.java"
+   checksum="aca1dcd8b97e2547be40e3670e3c1651"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="StackableException.java"
+   checksum="9238cce84b0875ba60a56ad4cedbecd9"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="StackableRuntimeException.java"
+   checksum="ebfe8d3a4c9550a54b67f1e3b23ad2fa"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="StringUtils.java"
+   checksum="28f5d1f0cd4386972d90b4b5824b284e"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="StrokeList.java"
+   checksum="664acbc35437eae630524083260d3856"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="TableOrder.java"
+   checksum="f0e0eca5d15cb089b44ea244a6107d94"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="UnitType.java"
+   checksum="b7d944e8aad38fca476c65969adc5104"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="WaitingImageObserver.java"
+   checksum="a81157b5386b57566353eb21d363bba5"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="junit"
+   kind="dir"/>
+<entry
+   name="package.html"
+   checksum="3b6c808389ef7122405b500723585298"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+</wc-entries>

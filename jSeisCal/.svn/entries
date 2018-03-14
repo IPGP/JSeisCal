@@ -1,1 +1,14 @@
-12
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://svn.ipgp.fr/instru_geos"
+   name=""
+   revision="238"
+   last-author="leroy"
+   url="https://svn.ipgp.fr/instru_geos/jSeisCal/jSeisCal"
+   uuid="308c3184-852a-42d4-b679-f66096868c1e"
+   committed-rev="12"
+   kind="dir"
+   committed-date="2010-02-03T13:42:58.453056Z"/>
+</wc-entries>

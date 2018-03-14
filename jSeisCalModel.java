@@ -1,21 +1,14 @@
 
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.math.BigInteger;
 import java.net.InetAddress;
 import java.net.SocketException;
 import java.net.UnknownHostException;
 import java.util.Properties;
-import java.util.StringTokenizer;
 
 import calc.*;
 import jlib330.*;
@@ -28,9 +21,8 @@ public class jSeisCalModel {
 	private static final String INITIAL_Q330ADDRESS = "192.168.1.10";
 	private static final String INITIAL_Q330DATAPORT = "3";
 	private static final String INITIAL_Q330AUTHCODE = "0000000000000000";
-	private static final int Q330BASEPORT = 5330;
+	private static final int 	Q330BASEPORT = 5330;
 
-	private static final String INITIAL_TABLEADDRESS = "192.168.1.20";
 	private static final String INITIAL_TABLEDISPLACEMENT = "0.893";
 	private static final String INITIAL_TABLEFREEPERIOD = "360";
 	private static final String INITIAL_TABLEDAMPING = "0.707";
@@ -45,7 +37,6 @@ public class jSeisCalModel {
 	private String q330dataport;
 	private String q330authcode;
 
-	private String tableAddress;
 	private String tableDisplacement;
 	private String tableFreePeriod;
 	private String tableDamping;
@@ -54,8 +45,6 @@ public class jSeisCalModel {
 	private String tableChannel;
 	public boolean tableMode = false;
 	public ModBus tableMB;
-	public TableBangs tableControlVertical;
-	public TableBangsValued tableControlHorizontal;
 
 	private String metrozetAddress;
 
@@ -67,11 +56,8 @@ public class jSeisCalModel {
 	private int calcdatastartindex;
 	private int calcdatastopindex;
 	private int calcdatalenght;
-	public long ecalibstart;
-	public long ecalibstop;
 
 	public CalcDataset dataset = null;
-	public ECalibDataset edataset = null;
 	public Data buffers = null;
 	public q330 q330 = null;
 
@@ -88,9 +74,6 @@ public class jSeisCalModel {
 	/** Reset to initial value. */
 	public void reset() {
 
-
-
-		FileInputStream fstream;
 		if (new File("jSeisCal.ini").exists()) {
 			try {
 
@@ -102,7 +85,6 @@ public class jSeisCalModel {
 				q330dataport = p.getProperty("q330dataport");
 				q330authcode = p.getProperty("q330authcode");
 
-				tableAddress = p.getProperty("tableAddress");
 				tableDisplacement = p.getProperty("tableDisplacement");
 				tableFreePeriod = p.getProperty("tableFreePeriod");
 				tableDamping = p.getProperty("tableDamping");
@@ -122,7 +104,6 @@ public class jSeisCalModel {
 			q330dataport = INITIAL_Q330DATAPORT;
 			q330authcode = INITIAL_Q330AUTHCODE;
 
-			tableAddress = INITIAL_TABLEADDRESS;
 			tableDisplacement = INITIAL_TABLEDISPLACEMENT;
 			tableFreePeriod = INITIAL_TABLEFREEPERIOD;
 			tableDamping = INITIAL_TABLEDAMPING;
@@ -151,7 +132,6 @@ public class jSeisCalModel {
 		p.setProperty("q330serial", q330serial);
 		p.setProperty("q330authcode", q330authcode);
 		p.setProperty("q330dataport", q330dataport);
-		p.setProperty("tableAddress", tableAddress);
 		p.setProperty("tableDisplacement", tableDisplacement);
 		p.setProperty("tableFreePeriod", tableFreePeriod);
 		p.setProperty("tableDamping", tableDamping);
@@ -220,16 +200,6 @@ public class jSeisCalModel {
 		}
 	}
 
-	public void setECalibTimeStampStart(){
-		buffers.setStart();		
-	}
-	public void setECalibTimeStampStop(){
-		buffers.setStop();
-	}
-
-	public void setTableAddress(String address) {
-		tableAddress = address;
-	}
 	public void setTableDisplacement(String dis) {
 		tableDisplacement = dis;
 		dataset.displacement = Double.valueOf(dis);
@@ -277,9 +247,6 @@ public class jSeisCalModel {
 	}
 	public int getDataStopIndex(){
 		return calcdatastopindex;
-	}
-	public String getTableAddress() {
-		return tableAddress;
 	}
 	public String getTableDisplacement() {
 		return tableDisplacement;
@@ -397,20 +364,6 @@ public class jSeisCalModel {
 
 	}
 
-
-	public void setECalibDataset(boolean typeH, boolean displayFrame) {    	
-		if (typeH) {
-			edataset = new ECalibDataset(buffers, true);
-			edataset.saveDatasetToFile();	
-		} else {
-			edataset = new ECalibDataset(buffers, false);
-			edataset.saveDatasetToFile();	
-		}
-		
-		if (displayFrame) {
-			ECalibResult cr = new ECalibResult(edataset, true);
-		}
-	}
 
 	public static void main(String[] args) {
 

@@ -30,6 +30,7 @@ public class MetrozetClient
 			//clientSocket.setSoTimeout(500);
 			//clientSocket.setSoLinger(false, 0);
 			clientSocket.setKeepAlive(true);
+
 			
 			outToServer = new DataOutputStream(clientSocket.getOutputStream());
 			sena = new SenaTCPListener(clientSocket, console);
@@ -53,6 +54,7 @@ public class MetrozetClient
 	public void send(String cmd) {
 		command = cmd + "\r";
 		if (clientSocket.isConnected()) {
+		//if (clientSocket.isBound()) {
 			try {
 				outToServer.writeBytes(command);
 				console.write(cmd);

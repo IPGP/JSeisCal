@@ -1,9 +1,6 @@
 package jlib330;
 
-import java.util.Dictionary;
 import java.util.HashMap;
-import java.util.Map;
-import java.util.SortedMap;
 
 
 public class Data {
@@ -137,9 +134,6 @@ public class Data {
 	    		break;
     	}
     	timer = (System.currentTimeMillis() - timer);
-    	System.out.println("ch : " + channel + " - freq : "+freq+" - timer : " + timer);
-    	
-
 	} 
     
     
@@ -147,8 +141,6 @@ public class Data {
 		int channel = blockette[0] & 0x07;
 		int freq = blockette[1];
 		freq &= 0x07;
-		
-		//System.out.println("channel = " + channel + "  -  Freq = " + freq );
 		
     	switch (channel) {
     	case 0 :
@@ -219,7 +211,6 @@ public class Data {
     	bmz.stamps.put(indexStamp, ts);
     	bmn.stamps.put(indexStamp, ts);
     	bme.stamps.put(indexStamp, ts);
-    	
     	
     }
 

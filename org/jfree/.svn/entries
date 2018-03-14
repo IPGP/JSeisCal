@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://svn.ipgp.fr/instru_geos"
+   name=""
+   revision="238"
+   last-author="leroy"
+   url="https://svn.ipgp.fr/instru_geos/jSeisCal/org/jfree"
+   uuid="308c3184-852a-42d4-b679-f66096868c1e"
+   committed-rev="18"
+   kind="dir"
+   committed-date="2010-03-24T16:19:04.056641Z"/>
+<entry
+   name="JCommon.java"
+   checksum="9b6578f938e11c79740b2befeac95a7b"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="JCommonInfo.java"
+   checksum="338e4413b34023b18b6b812a2b3339fb"
+   last-author="leroy"
+   committed-rev="2"
+   text-time="2010-01-14T18:01:35.000000Z"
+   kind="file"
+   committed-date="2010-01-14T18:01:35.428086Z"/>
+<entry
+   name="base"
+   kind="dir"/>
+<entry
+   name="chart"
+   kind="dir"/>
+<entry
+   name="data"
+   kind="dir"/>
+<entry
+   name="date"
+   kind="dir"/>
+<entry
+   name="demo"
+   kind="dir"/>
+<entry
+   name="io"
+   kind="dir"/>
+<entry
+   name="junit"
+   kind="dir"/>
+<entry
+   name="layout"
+   kind="dir"/>
+<entry
+   name="resources"
+   kind="dir"/>
+<entry
+   name="text"
+   kind="dir"/>
+<entry
+   name="threads"
+   kind="dir"/>
+<entry
+   name="ui"
+   kind="dir"/>
+<entry
+   name="util"
+   kind="dir"/>
+<entry
+   name="xml"
+   kind="dir"/>
+</wc-entries>

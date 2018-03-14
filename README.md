@@ -1,6 +1,6 @@
 # JSeisCal
 Eclipse project
-
+JAVA 1.5
 
 
 # Run JSeisCal #
